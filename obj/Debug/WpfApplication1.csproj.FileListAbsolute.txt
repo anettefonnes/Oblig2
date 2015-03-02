@@ -1,0 +1,37 @@
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\Window1.baml
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\App.g.cs
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Documents and Settings\Monsen\My Documents\Visual Studio 2008\Projects\ConsoleApplication33\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\WpfApplication1.exe
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\WpfApplication1.pdb
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\bin\Debug\WpfApplication1.exe
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\bin\Debug\WpfApplication1.pdb
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\Window1.baml
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\App.g.cs
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\WpfApplication1.g.resources
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Monsen\Desktop\WPF_DB_Demo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.exe
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.pdb
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\bin\Debug\WpfApplication1.exe
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\bin\Debug\WpfApplication1.pdb
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\Window1.baml
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\Window1.g.cs
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\App.g.cs
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.g.resources
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Anette\Documents\Skule\6. semester\DAT154 - Programvarearkitektur og applikasjonsutvikling\dått Net\Innleveringer\wpf\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
