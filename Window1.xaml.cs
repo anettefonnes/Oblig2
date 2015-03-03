@@ -40,15 +40,16 @@ namespace WpfApplication1 {
 
 			studentList.DataContext = students;
             courseList.DataContext = course;
-
-			var stuff = students.Join(grades, st => st.id, gr => gr.studentid, (st, gr) => new {st.studentname, gr.coursecode, gr.grade });
+            
+            var stuff = students.Join(grades, st => st.id, gr => gr.studentid, (st, gr) => new {st.studentname, gr.coursecode, gr.grade });
 			gradeList.DataContext = stuff;
 
-		}
+            var piss = from grade in grades
+                       select grade.grade;
 
-		private void button1_Click(object sender, RoutedEventArgs e) {
-			var filter = dc.GetTable<Student>().Where(st => st.studentname.Contains(textBox1.Text));
-			studentList.DataContext = filter;
+            gradeBox.DataContext = piss;
+
+
 		}
 
         private void courseList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -65,7 +66,7 @@ namespace WpfApplication1 {
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            char grad = (char)gradeBox.SelectedItem;
+            char grad = (char) gradeBox.SelectedItem;
 
             var filter = dc.GetTable<Student>().
                 Join(grades, st => st.id, gr => gr.studentid, (st,gr) => new {st, gr}).
@@ -74,6 +75,17 @@ namespace WpfApplication1 {
                 Select(m => new { m.grr.st.studentname, m.cr.coursename, m.grr.gr.grade } );
 
             gradeList.DataContext = filter;
+        }
+
+        private void search_Click(object sender, RoutedEventArgs e)
+        {
+            var filter = dc.GetTable<Student>().Where(st => st.studentname.Contains(nameSearch.Text));
+            studentList.DataContext = filter;
+        }
+
+        private void studentList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
 
 
