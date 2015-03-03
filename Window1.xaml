@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="Window1" Height="600" Width="850">
     <Grid>
-        <ListView Margin="40,44,551,340" Name="courseList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" SelectionChanged="courseList_SelectionChanged">
+        <ListView Margin="443.537,274.328,40,95.821" Name="courseList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" SelectionChanged="courseList_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -14,7 +14,7 @@
             </ListView.View>
         </ListView>
 
-        <ListView Margin="300,44,40,340" Name="studentList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
+        <ListView Margin="40,40,40,344" Name="studentList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" SelectionChanged="studentList_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -25,10 +25,10 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox Height="23" Margin="300,12,299,0" Name="textBox1" VerticalAlignment="Top" />
-        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,219,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click">Filter</Button>
+        <TextBox Height="23" Margin="300,12,299,0" Name="nameSearch" VerticalAlignment="Top" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,219,0" x:Name="searcBtn" VerticalAlignment="Top" Width="75" Click="search_Click" Content="Search"/>
 
-        <ListView Margin="40,274.328,475.821,95.821" Name="gradeList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
+        <ListView Margin="40,274.328,403.463,95.821" Name="gradeList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -40,13 +40,7 @@
             </ListView.View>
         </ListView>
 
-        <ComboBox x:Name="gradeBox" HorizontalAlignment="Left" Margin="40,247.328,0,0" VerticalAlignment="Top" Width="72.239" RenderTransformOrigin="-0.574,2.366" SelectionChanged="ComboBox_SelectionChanged">
-            <ComboBoxItem Content="A"/>
-            <ComboBoxItem Content="B"/>
-            <ComboBoxItem Content="C"/>
-            <ComboBoxItem Content="D"/>
-            <ComboBoxItem Content="E"/>
-            <ComboBoxItem Content="F"/>
+        <ComboBox x:Name="gradeBox"  HorizontalAlignment="Left" Margin="40,247.328,0,0" VerticalAlignment="Top" Width="72.239" RenderTransformOrigin="-0.574,2.366" SelectionChanged="ComboBox_SelectionChanged">
         </ComboBox>
         
     </Grid>
