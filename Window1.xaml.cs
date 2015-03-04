@@ -66,7 +66,7 @@ namespace WpfApplication1 {
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            char grad = (char) gradeBox.SelectedItem;
+            char grad = (char)gradeBox.SelectedItem;
 
             var filter = dc.GetTable<Student>().
                 Join(grades, st => st.id, gr => gr.studentid, (st,gr) => new {st, gr}).

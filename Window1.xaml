@@ -40,7 +40,13 @@
             </ListView.View>
         </ListView>
 
-        <ComboBox x:Name="gradeBox"  HorizontalAlignment="Left" Margin="40,247.328,0,0" VerticalAlignment="Top" Width="72.239" RenderTransformOrigin="-0.574,2.366" SelectionChanged="ComboBox_SelectionChanged">
+        <ComboBox x:Name="gradeBox"  HorizontalAlignment="Left" Margin="40,247.328,0,0" VerticalAlignment="Top" Width="72.239" RenderTransformOrigin="-0.574,2.366" SelectionChanged="ComboBox_SelectionChanged" ItemsSource="{Binding Path=grade}">
+            <ComboBoxItem Content="A"/>
+            <ComboBoxItem Content="B"/>
+            <ComboBoxItem Content="C"/>
+            <ComboBoxItem Content="D"/>
+            <ComboBoxItem Content="E"/>
+            <ComboBoxItem Content="F"/>
         </ComboBox>
         
     </Grid>
