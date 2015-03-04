@@ -14,7 +14,7 @@
             </ListView.View>
         </ListView>
 
-        <ListView Margin="40,40,40,344" Name="studentList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" SelectionChanged="studentList_SelectionChanged">
+        <ListView Margin="40,40,40,344" Name="studentList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -25,8 +25,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox Height="23" Margin="300,12,299,0" Name="nameSearch" VerticalAlignment="Top" />
-        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,219,0" x:Name="searcBtn" VerticalAlignment="Top" Width="75" Click="search_Click" Content="Search"/>
+        <TextBox Height="23" Margin="300,12,299,0" Name="nameSearch" VerticalAlignment="Top" KeyDown="search_Click2" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,219,0" x:Name="searcBtn" VerticalAlignment="Top" Width="75" Content="Search" KeyDown="search_Click"/>
 
         <ListView Margin="40,274.328,403.463,95.821" Name="gradeList" Width="Auto" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
             <ListView.View>
@@ -41,12 +41,12 @@
         </ListView>
 
         <ComboBox x:Name="gradeBox"  HorizontalAlignment="Left" Margin="40,247.328,0,0" VerticalAlignment="Top" Width="72.239" RenderTransformOrigin="-0.574,2.366" SelectionChanged="ComboBox_SelectionChanged" ItemsSource="{Binding Path=grade}">
-            <ComboBoxItem Content="A"/>
-            <ComboBoxItem Content="B"/>
-            <ComboBoxItem Content="C"/>
-            <ComboBoxItem Content="D"/>
-            <ComboBoxItem Content="E"/>
-            <ComboBoxItem Content="F"/>
+            <ComboBoxItem Content="A" Tag="'A'"/>
+            <ComboBoxItem Content="B" Tag="'B'"/>
+            <ComboBoxItem Content="C" Tag="'C'"/>
+            <ComboBoxItem Content="D" Tag="'D'"/>
+            <ComboBoxItem Content="E" Tag="'E'"/>
+            <ComboBoxItem Content="F" Tag="'F'"/>
         </ComboBox>
         
     </Grid>
